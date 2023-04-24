@@ -8,8 +8,8 @@ const  { showMinimized,
 
 setShowMinimized } = useState(false);
 
-const [width, setWidth] useState(640); 
-const [height, setHeight] = useState(480
+const [width, setWidth] = useState(640); 
+const [height, setHeight] = useState(480);
 
  const handleResize = (event) =>
 
@@ -24,7 +24,7 @@ const [height, setHeight] = useState(480
 
  <iframe
 
- src="https:\/\/ lens.google.com\/ocr"
+ src="https:// lens.google.com/ocr"
 
  width={width}
 
@@ -39,7 +39,8 @@ const [height, setHeight] = useState(480
  <div className="player">
    </div>
 
- <div className={minimized={showMinimized} 
+ <div className={minimized={showMinimized} >
+ </div>
 
  //DD
 
