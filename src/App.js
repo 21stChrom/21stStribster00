@@ -1,25 +1,17 @@
 import React, { useState } from "react";
 
-import ".\/styles.css";
+import "./styles.css";
 
-export default function App() {
+export default function App() 
 
 const  { showMinimized,
 
 setShowMinimized } = useState(false);
 
 const [width, setWidth] useState(640); 
- initial width
-
- =
-
- of iframe window const [height, setHeight] = useState(480); \/\/ initial height
-
- of iframe window
+const [height, setHeight] = useState(480
 
  const handleResize = (event) =>
-
- } \/\/ when resizing the iframe
 
  window setWidth(event.target.innerWidth);
 
@@ -40,16 +32,15 @@ const [width, setWidth] useState(640);
 
  title="Google Lens active
 
- text transcriber" ><\/iframe>
+ text transcriber" ></iframe>
 
- <\/div>
+ </div>
 
- <div className="player"><\/
+ <div className="player">
+   </div>
 
- div>
+ <div className={minimized={showMinimized} 
 
- <div className={minimized ${showMinimized? "show":"}
-
- DD
+ //DD
 
  1:18
